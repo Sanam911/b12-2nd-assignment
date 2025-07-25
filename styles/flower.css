@@ -1,3 +1,18 @@
+/* shared style */
+
+.orange{
+    color: #E95A08;
+}
+.p-text{
+    color: #00000069;
+}
+.noto{
+    font-family: "Noto Serif", serif;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
 /* nav styles */
 .bg{
     background-color: rgb(245, 248, 255);
@@ -24,7 +39,26 @@
     display: flex;
     gap: 50px;
 }
+
+/* banner styles */
+.banner-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+
+
 @media screen and (max-width:768px) {
+    /* nav section */
     .nav{
         display: flex;
         align-items: center;
@@ -35,5 +69,15 @@
     }
     .lists{
         gap: 20px;
+    }
+
+    /* banner section */
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 50px auto;
+    }
+    .banner-title{
+        font-size: 2rem;
     }
 }
