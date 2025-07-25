@@ -119,6 +119,88 @@
     margin-bottom: 20px;
  }
 
+
+ /* latest deal section */
+.deal-container{
+    text-align: center;
+    max-width: 1140px;
+    margin: 250px auto;
+}
+.deal-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.deal-img-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+.left-img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.bloom{
+    background-image:url(../assets/bloom.png) ;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 195px;
+    border-radius: 20px;
+}
+.ana{
+    background-image: url(../assets/ana.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 195px;
+    border-radius: 20px;
+    margin-top: 0;
+}
+.bloom p, .ana p, .right-img p{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.right-img{
+    background-image: url(../assets/zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.bloom a, .ana a, .right-img a{
+    color: white;
+    font-weight: 600;
+    margin-top: 0;
+}
+.bloom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-img p{
+    font-size: 2rem;
+}
+
  /* join now section */
  .join-container{
     background-image: url(../assets/news-letter-bg.png);
@@ -257,7 +339,7 @@
 
    /* join us section */
    .join-container{
-    margin-top: 300px;
+    margin-top: 0px;
    }
    #mail{
     width: 200px;
@@ -285,5 +367,25 @@
     display: flex;
     justify-content: flex-start;
     gap: 50px;
+   }
+
+   /* latest deal section */
+   .deal-container{
+    margin-top: 400px;
+   }
+   .deal-img-sec{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+   }
+   .left-img{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+   .right-img{
+    width: 88%;
+    height: 195px;
+    margin-top: 0;
    }
 }
