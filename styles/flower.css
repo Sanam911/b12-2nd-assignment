@@ -85,6 +85,40 @@
     width: 270px;
  }
 
+ /* plant lover section */
+ .badge-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 100px auto;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    height: 590px;
+
+ }
+ .badge-title{
+    font-weight: 700;
+    font-size: 3.125rem;
+ }
+ .badge-img{
+    position: relative;
+ }
+ .badge-content{
+    padding-top: 250px;
+ }
+.trusted{
+    width: 280px;
+    left: 400px;
+    top:150px
+}
+.trusted{
+    z-index: 1;
+}
+ 
+ ul li{
+    margin-bottom: 20px;
+ }
+
 
 @media screen and (max-width:768px) {
     /* nav section */
@@ -133,5 +167,25 @@
     width: 170px;
     /* font-size:14px ; */
     padding: 15px 30px;
+   }
+
+   /* plant lover section */
+   .badge-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+   }
+   .flower{
+    width: 100%;
+    margin-bottom: 0;
+   }
+   .trusted{
+    display: none;
+   }
+   .badge-content{
+    padding-top: 0;   
+   }
+   .badge-title{
+    font-size: 1.5rem;
    }
 }
