@@ -119,6 +119,36 @@
     margin-bottom: 20px;
  }
 
+ /* join now section */
+ .join-container{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .join-title{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+ }
+ #mail{
+    width: 645px;
+    padding: 18px;
+    border: none;
+    margin-right: 0;
+ }
+ .input-btn{
+    margin-left: 0;
+    width: 186px;
+ }
+
 
 @media screen and (max-width:768px) {
     /* nav section */
@@ -186,6 +216,21 @@
     padding-top: 0;   
    }
    .badge-title{
+    font-size: 1.5rem;
+   }
+
+   /* join us section */
+   .join-container{
+    margin-top: 300px;
+   }
+   #mail{
+    width: 200px;
+   }
+   .input-btn{
+    width: 100px;
+    padding-left: 15px;
+   }
+   .join-title{
     font-size: 1.5rem;
    }
 }
