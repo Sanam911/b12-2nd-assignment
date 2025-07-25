@@ -1,0 +1,39 @@
+/* nav styles */
+.bg{
+    background-color: rgb(245, 248, 255);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav li {
+    list-style-type: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: #252432;
+}
+.nav li a:hover{
+    color: #8987A1;
+}
+.lists{
+    display: flex;
+    gap: 50px;
+}
+@media screen and (max-width:768px) {
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-hide{
+        display: none;
+    }
+    .lists{
+        gap: 20px;
+    }
+}
